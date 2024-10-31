@@ -1,0 +1,574 @@
+/* ここから下に記載していく */
+
+header {
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* なぜこれ↓で横並びになるのか不明。クラスではできないのか？ */
+.navi {
+    display: flex;
+}
+
+.navic {
+    width: 100%;
+}
+
+
+
+.mainvisual {
+    /*親div*/
+    position: relative;
+    /*相対配置*/
+}
+
+.mainvisual ul {
+    position: absolute;
+    /*絶対配置*/
+    color: white;
+    /*文字は白に*/
+    top: 0;
+    left: 0;
+}
+
+.mainvisual ul li {
+    margin-bottom: 50px;
+}
+
+.main1 {
+    font-size: 48px;
+}
+
+.main2 {
+    font-size: 32px;
+}
+
+
+.mainvisual img {
+    width: 100%;
+}
+
+.mainline h1 {
+    margin-top: 60px;
+    font-size: 24px;
+    color: gold;
+}
+
+.mainline h2 {
+    margin-top: 30px;
+    font-size: 18px;
+
+}
+
+.mainline h3 {
+    margin-top: 30px;
+}
+
+.margin p {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 16px;
+}
+
+.photo4 {
+    margin-top: 80px;
+}
+
+.course h1 {
+    margin-top: 60px;
+    font-size: 24px;
+    color: gold;
+}
+
+.course p {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.picsetu {
+    height: 400px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.picsetu01 {
+    width: 650px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.picsetu01 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.picsetu02 {
+    background-color: #eee;
+    width: 650px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.picsetu02 h1 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+.picsetu02 p {
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.picsetu2 {
+    background-color: black;
+    height: 400px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.picsetu2_1 {
+    background-color: #eee;
+    width: 650px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.picsetu2_1 h1 {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 110px;
+    padding-right: 240px;
+}
+
+.picsetu2_1 p {
+    font-size: 13px;
+    padding-right: 50px;
+    padding-left: 150px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+.picsetu2_2 {
+    background-color: blueviolet;
+    width: 650px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.picsetu2_2 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.picsetu3 {
+    background-color: palegreen;
+    height: 400px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.picsetu3_1 {
+    background-color: peru;
+    height: 400px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.picsetu3_1 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.picsetu3_2 {
+    background-color: #eee;
+    width: 650px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.picsetu3_2 h1 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+.picsetu3_2 p {
+    font-size: 13px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 150px;
+    line-height: 30px;
+}
+
+/* ニュース*/
+.nnn {
+    /* background-color:crimson; */
+    height: 100px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.nnn h1 {
+    text-align: center;
+    color: gold;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.nnn p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+/* 写真３枚 */
+.sha {
+    /* background-color:chartreuse; */
+    height: 300px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.sha1 {
+    /* background-color:darkolivegreen; */
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.sha1 p {
+    text-align: center;
+}
+
+.sha1 img:hover {
+    opacity: 0.5;
+}
+
+.more {
+    margin-top: 30px;
+    background-color: gold;
+    width: 300px;
+    margin: 0 auto;
+    height: 60px;
+    margin-bottom: 20px;
+    text-decoration: none
+}
+
+.more:hover {
+    color: black;
+    /* 文字色を白にする */
+    background-color: #c9c9c9;
+    /* 背景色をグレー（#c9c9c9）にする */
+    text-decoration: none;
+    /* リンクに出てくる下線を無効にする*/
+}
+
+.more h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.ac {
+    background-color: gray;
+    width: 1300px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.acac h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    color: gold;
+    font-weight: 900;
+}
+
+.acac p {
+    text-align: center;
+    line-height: 60px;
+}
+
+.chizu {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.chizu img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+}
+
+.chizusetu h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.chizu p {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.contact1 h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 80px;
+    color: gold;
+    font-weight: 900;
+}
+
+.contact1 h2 {
+    text-align: center;
+    line-height: 40px;
+}
+
+.contact1 h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact1 p {
+    text-align: center;
+    line-height: 20px;
+}
+
+.hyou {
+    width: 500px;
+    margin: 0 auto;
+    /* background-color:palegoldenrod; */
+}
+
+table {
+    text-align: center;
+}
+
+th {
+    /* background-color: red; */
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+    /* padding:10px; */
+    /* height: 30px; */
+    width: 200px;
+}
+
+td {
+    /* background-color: pink; */
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-top: black 1px solid;
+    /* height: 30px; */
+    width: 270px;
+}
+
+.cp_iptxt {
+    position: relative;
+    width: 90%;
+    margin: 15px 3%;
+}
+
+.cp_iptxt input[type='text'] {
+    font: 10px/20px sans-serif;
+    /* box-sizing: border-box; */
+    width: 100%;
+    /* padding: 0.3em; */
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.ef input[type='text']:focus {
+    border: 1px solid gold;
+    outline: none;
+    box-shadow: 0 0 5px 1px yellow (218, 60, 65, .5);
+}
+
+.cp_ipselect {
+    overflow: hidden;
+    width: 90%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+/* ここかチェックボックス */
+.cp_ipselect select {
+    width: 100%;
+    padding-right: 1em;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+
+.cp_ipselect.cp_sl01 {
+    /* position: relative; */
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+    background: #ffffff;
+    height: 30px;
+}
+
+.cp_ipselect.cp_sl01::before {
+    position: absolute;
+    top: 0.8em;
+    right: 0.9em;
+    width: 0;
+    height: 0;
+    padding: 0;
+    content: '';
+    border-left: 3px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #666666;
+    pointer-events: none;
+}
+
+.cp_ipselect.cp_sl01 select {
+    padding: 8px 38px 8px 8px;
+    color: #666666;
+}
+
+.cp_ipcheck {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cp_ipcheck:before,
+.cp_ipcheck:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.cp_ipcheck .box {
+    width: 90%;
+    /* margin: 2em auto; */
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+.cp_ipcheck input[type=checkbox] {
+    display: none;
+}
+
+.cp_ipcheck label:focus,
+.cp_ipcheck label:hover,
+.cp_ipcheck label:active,
+.cp_ipcheck input:checked+label {
+    color: gold;
+}
+
+.cp_ipcheck label:focus:before,
+.cp_ipcheck label:hover:before,
+.cp_ipcheck label:active:before,
+.cp_ipcheck input:checked+label:before {
+    border-color: gold;
+    background: #ffffff;
+}
+
+.cp_ipcheck label {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 1em 0em 0.3em 3em;
+    cursor: pointer;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #ffffff;
+}
+
+.cp_ipcheck label:before {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 10px;
+    height: 10px;
+    content: '';
+    border: 0.2em solid #cccccc;
+}
+
+.cp_ipcheck input:checked+label:before {
+    border-color: gold;
+    background: gold;
+}
+
+.soshin {
+    width: 300px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: gold;
+    margin-top: 20px;
+}
+
+.soshin:hover {
+    color: #000;
+    /* 文字色を白にする */
+    background-color: #c9c9c9;
+    /* 背景色をグレー（#c9c9c9）にする */
+    text-decoration: none;
+    /* リンクに出てくる下線を無効にする*/
+}
+
+.soshin h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.copy {
+    width: 1300px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #707070;
+    margin-top: 30px;
+}
+
+.copy p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
